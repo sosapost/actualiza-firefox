@@ -6,10 +6,10 @@
 
 CHEC64=x86_64
 HOME=~/
-DESCARGA32=https://download-installer.cdn.mozilla.net/pub/firefox/releases/61.0.1/linux-i686/es-ES/firefox-61.0.1.tar.bz2
-DESCARGA64=https://download-installer.cdn.mozilla.net/pub/firefox/releases/61.0.1/linux-x86_64/es-ES/firefox-61.0.1.tar.bz2
+DESCARGA32=https://download-installer.cdn.mozilla.net/pub/firefox/releases/83.0/linux-i686/es-ES/firefox-83.0.tar.bz2
+DESCARGA64=https://download-installer.cdn.mozilla.net/pub/firefox/releases/83.0/linux-x86_64/es-ES/firefox-83.0.tar.bz2
 DIRECTORIO=firefox*.tar.bz2
-LANZADOR=https://raw.githubusercontent.com/homero10/actualiza-firefox-guadalinex/master/firefox-noroot.desktop
+LANZADOR=https://raw.githubusercontent.com/aosucas499/actualiza-firefox-guadalinex/master/firefox-noroot.desktop
 NEWLANZADOR=firefox-noroot.desktop
 ROJO="\033[1;31m"
 NORMAL="\033[0m"
@@ -21,7 +21,7 @@ cd $HOME
 
 #Bajamos la última versión disponible desde la web de Firefox.
 
-echo -e "${ROJO}¡¡¡ATENCIÓN!!! Se va a descargar la última versión de Firefox disponible hasta la fecha [20-7-2018]. ¿Desea continuar?${NORMAL}"
+echo -e "${ROJO}¡¡¡ATENCIÓN!!! Se va a descargar la última versión de Firefox disponible hasta la fecha [09-12-2020]. ¿Desea continuar?${NORMAL}"
 
 select yn in "Sí" "No" ; do
     case $yn in 
