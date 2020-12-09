@@ -103,6 +103,8 @@ rm $DIRECTORIO
 
 echo -e "${ROJO}OK${NORMAL}"
 
+#sudo apt-get install libatomic1 -y
+
 #Añadimos notificación
 
 notify-send 'Firefox se ha actualizado correctamente' 'Puede acceder a la nueva instalación desde Aplicaciones > Internet o desde el acceso directo creado en el escritorio del sistema' -i firefox-nightly
