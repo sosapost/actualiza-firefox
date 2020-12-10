@@ -1,5 +1,6 @@
 # Descripción
 Actualiza Firefox sin necesidad de ser root, tiene dos scripts, uno para equipos con root y otro sin root. Válido para cualquier distro Linux.
+Versión que descarga: Firefox v.83
 
 # Instrucciones
 
