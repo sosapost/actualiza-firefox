@@ -1,7 +1,7 @@
 ### Gracias a [homero10](https://github.com/homero10/actualiza-firefox-guadalinex)
 
 # Descripción
-Actualiza Firefox, tiene dos scripts, uno para equipos con derechos de administrador "actualiza-firefox" y otro sin root "actualiza-firefox-noroot. 
+Actualiza Firefox, tiene dos scripts, uno para equipos con derechos de administrador "actualiza-firefox" y otro sin root "actualiza-firefox-noroot". 
 
 1. El uso en sistemas  con privilegios de adminstrador está pensado para viejas distribuciones cuyos repositorios no dejen acceder a versiones actuales, de manera que el script "actualiza-firefox", no borrará la versión del sistema sino convivirá con la versión anterior. 
 
