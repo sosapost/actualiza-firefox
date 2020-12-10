@@ -99,7 +99,7 @@ rm $DIRECTORIO
 
 #Borra el actualizador automático ya que puede que en un futuro las actualizaciones no sean compatibles con el sistema.
 
-rm $HOMEfirefox/updat* 2> /dev/null
+rm /home/$USER/firefox/updat* 2> /dev/null
 
 echo -e "${ROJO}OK${NORMAL}"
 
