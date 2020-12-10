@@ -74,7 +74,7 @@ EnBuscaDePV
 
 echo -e "${AZUL}Firefox se está descomprimiendo en un directorio del sistema...${NORMAL}"
 
-sudo pv $DIRECTORIO | tar -xjf - -C $CARPETASISTEMA
+pv $DIRECTORIO | sudo tar -xjf - -C $CARPETASISTEMA
 
 sudo mv $CARPETASISTEMA/firefox $CARPETASISTEMA/firefox-latest
 
@@ -102,7 +102,7 @@ rm $DIRECTORIO
 
 #Borra el actualizador automático ya que puede que en un futuro las actualizaciones no sean compatibles con el sistema.
 
-rm $CARPETASISTEMA/firefox-latest/updat* 2> /dev/null
+sudo rm $CARPETASISTEMA/firefox-latest/updat* 2> /dev/null
 
 echo -e "${ROJO}OK${NORMAL}"
 
