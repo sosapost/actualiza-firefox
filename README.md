@@ -17,7 +17,7 @@ Hay que seguir los siguientes pasos:
 
 2- Abrimos una terminal.
 
-3- Una vez tengamos abierta la terminal, nos situaremos sobre el directorio Descargas. Escribiremos cd Descargas/
+3- Una vez tengamos abierta la terminal, nos situaremos sobre el directorio Descargas. Escribiremos cd Descargas
 
 4- Ya estamos en la carpeta correspondiente. Ahora hay que descomprimir el archivador descargado en el paso 1. Al tratarse de un .zip escribirimos la orden apropiada, que será unzip seguido del nombre de nuestro archividador, por tanto teclearemos unzip actualiza-firefox-master.zip
 
