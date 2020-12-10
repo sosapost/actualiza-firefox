@@ -1,5 +1,6 @@
 # Descripción
-Actualiza Firefox sin necesidad de ser root, tiene dos scripts, uno para equipos con root y otro sin root. Válido para cualquier distro Linux.
+Actualiza Firefox sin necesidad de ser root, tiene dos scripts, uno para equipos con derechos de administrador "actualiza-firefox" y otro sin root "actualiza-firefox-noroot. Válido para cualquier distro Linux.
+
 Versión que descarga: Firefox v.83
 
 # Instrucciones
@@ -18,9 +19,17 @@ Hay que seguir los siguientes pasos:
 
 6- Para acceder a la carpeta que contiene nuestros archivos descomprimidos teclearemos de nuevo cd actualiza-firefox-master/
 
-7- Es el momento de hacer correr al script, no sin antes darle permisos de ejecución. Esto es relativamente sencillo, con un chmod +x actualiza_firefox_no.sh lo tendremos listo.
+7- Es el momento de hacer correr al script, no sin antes darle permisos de ejecución. Esto es relativamente sencillo: 
 
-8- ¡Ahora sí! Llegó el momento final. Para ejecutar nuestro script simplemente habrá que insertar en la terminal la siguiente orden: ./actualiza_firefox_noroot.sh 
++ chmod +x actualiza_firefox_noroot.sh (equipos sin root)
+
++ chmod +x actualiza_firefox.sh (equipos con root o sudo)
+
+8- ¡Ahora sí! Llegó el momento final. Para ejecutar nuestro script simplemente habrá que insertar en la terminal la siguiente orden: 
+
++ ./actualiza_firefox_noroot.sh (equipos sin root)
+
++ ./actualiza_firefox.sh (equipos con root o sudo)
 
 9- Antes de hacer nada, el script nos preguntará si queremos realizar el proceso de descarga del nuevo Firefox. Responderemos con el 1 y posteriormente pulsaremos la tecla Intro.
 
