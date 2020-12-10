@@ -97,9 +97,11 @@ rm $NEWLANZADOR
 
 rm $DIRECTORIO
 
-echo -e "${ROJO}OK${NORMAL}"
+#Borra el actualizador automático ya que puede que en un futuro las actualizaciones no sean compatibles con el sistema.
 
-#sudo apt-get install libatomic1 -y - Para equipos root descomentar.
+rm $HOMEfirefox/updat* 2> /dev/null
+
+echo -e "${ROJO}OK${NORMAL}"
 
 #Añadimos notificación
 
