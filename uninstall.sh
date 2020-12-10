@@ -16,7 +16,7 @@ ROJO="\033[1;31m"
 NORMAL="\033[0m"
 AZUL="\033[1;34m"
 
-echo -e "${ROJO}¿Quiere eliminar la versión de Firefox alojada en su directorio personal? Esto no borrará la versión de Firefox instalada en el sistema base.${NORMAL}"
+echo -e "${ROJO}¿Quiere eliminar la versión de Firefox ? Esto no borrará la versión de Firefox instalada en el sistema base.${NORMAL}"
 
 select yn in "Sí" "No" ; do
     case $yn in 
