@@ -5,7 +5,7 @@ Actualiza Firefox, tiene dos scripts, uno para equipos con derechos de administr
 
 1. El uso en sistemas  con privilegios de adminstrador está pensado para viejas distribuciones cuyos repositorios no dejen acceder a versiones actuales, de manera que el script "actualiza-firefox", no borrará la versión del sistema sino convivirá con la versión anterior. 
 
-2. El uso en sistemas sin privigelios root, está pensado para distribuciones Guadalinex que vienen con el usuario root borrado o con el usuario sin derechos de administrador (sudo). 
+2. El uso en sistemas sin privilegios root, está pensado para distribuciones Guadalinex que vienen con el usuario root borrado o con el usuario sin derechos de administrador (sudo). 
 
 Versión que descarga: Firefox v.83
 
