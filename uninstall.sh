@@ -8,9 +8,6 @@
 DESKTOP=~/Escritorio
 CARPETA=~/firefox/
 LOCAL=~/.local/share/applications
-#DESCARGA=https://download-installer.cdn.mozilla.net/pub/firefox/releases/59.0.2/linux-i686/es-ES/firefox-59.0.2.tar.bz2
-#DIRECTORIO=firefox*.tar.bz2
-#LANZADOR=https://raw.githubusercontent.com/homero10/actualiza-firefox-guadalinex/master/firefox-noroot.desktop
 NEWLANZADOR=firefox-noroot.desktop
 ROJO="\033[1;31m"
 NORMAL="\033[0m"
