@@ -1,3 +1,5 @@
+### Gracias a [homero10](https://github.com/homero10/actualiza-firefox-guadalinex)
+
 # Descripción
 Actualiza Firefox sin necesidad de ser root, tiene dos scripts, uno para equipos con derechos de administrador "actualiza-firefox" y otro sin root "actualiza-firefox-noroot. Válido para cualquier distro Linux.
 
