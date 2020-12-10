@@ -6,7 +6,7 @@
 
 CHEC64=x86_64
 HOME=~/
-CARPETASISTEMA=/usr/lib/
+CARPETASISTEMA=/usr/lib
 DESCARGA32=https://download-installer.cdn.mozilla.net/pub/firefox/releases/83.0/linux-i686/es-ES/firefox-83.0.tar.bz2
 DESCARGA64=https://download-installer.cdn.mozilla.net/pub/firefox/releases/83.0/linux-x86_64/es-ES/firefox-83.0.tar.bz2
 DIRECTORIO=firefox*.tar.bz2
@@ -76,7 +76,7 @@ echo -e "${AZUL}Firefox se está descomprimiendo en un directorio del sistema...
 
 sudo pv $DIRECTORIO | tar -xjf - -C $CARPETASISTEMA
 
-sudo mv $CARPETASISTEMAfirefox $CARPETASISTEMAfirefox-latest
+sudo mv $CARPETASISTEMA/firefox $CARPETASISTEMA/firefox-latest
 
 #Descargamos el lanzador del nuevo Firefox.
 
@@ -102,7 +102,7 @@ rm $DIRECTORIO
 
 #Borra el actualizador automático ya que puede que en un futuro las actualizaciones no sean compatibles con el sistema.
 
-rm $CARPETASISTEMAfirefox-latest/updat* 2> /dev/null
+rm $CARPETASISTEMA/firefox-latest/updat* 2> /dev/null
 
 echo -e "${ROJO}OK${NORMAL}"
 
