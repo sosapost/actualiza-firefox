@@ -38,11 +38,11 @@ CHECK=$(uname -m |grep $CHEC64)
   if [ "$?" == "0" ] ; then
    echo -e "${AZUL}Este sistema es de 64 bits${NORMAL}"
    echo -e "${AZUL}Descargando Firefox para arquitecturas de 64 bits${NORMAL}"
-   wget  $DESCARGA64 -q --show-progress
+   wget  $DESCARGA64 
    else
    echo -e "${AZUL}Este sistema es de 32 bits"${NORMAL}   
    echo -e "${AZUL}Descargando Firefox para arquitecturas de 32 bits${NORMAL}"
-   wget  $DESCARGA32 -q --show-progress
+   wget  $DESCARGA32 
  
   fi  
 }
@@ -50,7 +50,7 @@ CHECK=$(uname -m |grep $CHEC64)
 CompruebaArch
 
 #echo -e "${AZUL}Descargando Firefox...${NORMAL}"
-#wget $DESCARGA -q --show-progress
+#wget $DESCARGA 
 
 #Paso para descomprimir Firefox
 
@@ -77,7 +77,7 @@ pv $DIRECTORIO | tar -xjf - -C $HOME
 
 #Descargamos el lanzador del nuevo Firefox.
 
-wget $LANZADOR -q
+#wget $LANZADOR 
 
 echo -e "${AZUL}Creando rutas y lanzadores...${NORMAL}"
 
