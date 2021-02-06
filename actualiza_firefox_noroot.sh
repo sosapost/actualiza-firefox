@@ -6,8 +6,8 @@
 
 CHEC64=x86_64
 HOME=~/
-DESCARGA32=https://download-installer.cdn.mozilla.net/pub/firefox/releases/83.0/linux-i686/es-ES/firefox-83.0.tar.bz2
-DESCARGA64=https://download-installer.cdn.mozilla.net/pub/firefox/releases/83.0/linux-x86_64/es-ES/firefox-83.0.tar.bz2
+DESCARGA32=https://download-installer.cdn.mozilla.net/pub/firefox/releases/61.0.1/linux-i686/es-ES/firefox-61.0.1.tar.bz2
+DESCARGA64=https://download-installer.cdn.mozilla.net/pub/firefox/releases/61.0.1/linux-x86_64/es-ES/firefox-61.0.1.tar.bz2
 DIRECTORIO=firefox*.tar.bz2
 LANZADOR=https://raw.githubusercontent.com/aosucas499/actualiza-firefox/master/firefox-noroot.desktop
 NEWLANZADOR=firefox-noroot.desktop
