@@ -85,9 +85,9 @@ echo -e "${AZUL}Creando rutas y lanzadores...${NORMAL}"
 
 mkdir ~/.local/share/applications 2> /dev/null
 
-cp $NEWLANZADOR ~/.local/share/applications/
+cp ~/actualiza*/$NEWLANZADOR ~/.local/share/applications/
 
-cp $NEWLANZADOR ~/Escritorio
+cp ~/actualiza*/$NEWLANZADOR ~/Escritorio
 
 #Borramos archivos residuales
 
