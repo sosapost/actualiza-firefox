@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ##Script para actualizar Firefox en sistemas sin privilegios root.
-
+## versión de firefox 103.0.2 estable 23 de mayo de 2023
 #VARIABLES
 
 CHEC64=x86_64
